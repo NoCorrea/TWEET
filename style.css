@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 591px;
+    height: 161px;
+    border-style: solid;
+    border-color: #DADDDF;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin: 97px 424px 98px 425px;
+}
+
+.logo-nike {
+    width: 48px ;
+    height: 48px;
+    margin-top: 17px;
+    margin-right: 12px;
+    margin-bottom: 96px;
+    margin-left: 17px;
+    flex-shrink: 0;
+}
+
+.principal-post {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    width: 430px;
+    height: 72px;
+}
+
+
+.post-title {  
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.post-text {
+    width: 430px;
+    height: 72px;
+    padding-top: 5px;
+    box-sizing: border-box;   
+}
+
+.principal-text {
+    color: #0F1419;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+    
+
+.post-actions {
+    width: 400px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
+
+#strong-nike {
+    width: 31px;
+    height: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #0F1419;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+ #icone-verificado {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    margin-left: 2px;
+    padding-left: 2px;
+ }
+
+ #arroba-nike {
+    width: 44px;
+    height: 18px;
+    color: #536471;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+ #dotpng {
+    padding-left: 2px;
+    padding-right: 5px;
+ }
+
+ #date {
+    width: 68px;
+    height: 18px;
+    color: #536471;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+#comment {
+    color: #536471;
+    margin-left: 17px;
+    width: 18px;
+    height: 15px;
+}
+
+#retweet {
+    color: #536471;
+    margin-left: 18px;
+    width: 36px;
+    height: 15px;
+}
+
+#favorite {
+    color: #536471;
+    margin-left: 21px;
+    width: 39px;
+    height: 15px;
+}
+
+.actions-image {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0; 
+}
+
